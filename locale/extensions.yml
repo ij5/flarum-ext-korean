@@ -6,16 +6,7 @@ antoinefr-online:
   forum:
     andmore: +{more}명...
 
-fof-username-request:
-  forum:
-    request:
-      title: 
-      submit_button: 이름 바꾸기
-      dismiss_button: 확인
-      title: 
-      confirmation_message: 새롭게 시작해 볼까요?
-    dropdown:
-      title: 이름 변경 요청
+
 fof-username-request:
   admin:
     permissions:
@@ -44,7 +35,7 @@ fof-username-request:
       current_request: 이미 "{username}"이라는 이름으로 변경을 요청했어요. 요청을 업데이트하거나 취소할 수 있어요.
       submit_button: 요청
       delete_button: 요청 취소
-      confirmation_message: 이름 변경이 완료되었어요.
+      confirmation_message: 이름 변경이 완료되었어요. 새롭게 시작해 볼까요?
       dismiss_button: 확인
       deleted: 요청이 취소되었어요.
     account_label: 이름 변경
