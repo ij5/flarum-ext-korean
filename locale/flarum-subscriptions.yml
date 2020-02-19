@@ -15,12 +15,12 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: 그만 지켜보기
-      unignore_button: 그만 무시하기
+      unfollow_button: 관심 끊기
+      unignore_button: 무시하지 않기
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      following_link: => flarum-subscriptions.ref.following
+      following_link: 관심글
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -35,11 +35,11 @@ flarum-subscriptions:
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: 모든 댓글에 대해 알립니다.
+      following_text: 댓글이 달리면 알려줄게요.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: 알리지 않습니다. 게시 목록으로부터 숨깁니다.
-      not_following_button: 지켜보지 않기
-      not_following_text: "지적이 있을 경우에만 알림 @mentioned."
+      ignoring_text: 알림을 끕니다. 나를 @멘션해도 알림을 받을 수 없어요.
+      not_following_button: 관심주지 않기
+      not_following_text: "나를 @멘션할 때만 알림"
       notify_alert_tooltip: 새 글에 대해 알림 받기
       notify_email_tooltip: 새 글에 대해 이메일 받기
 
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: 지켜보는 중
-    following: 지켜보기
-    ignoring: 무시하기
+    follow: 관심
+    following: 관심주는 중
+    ignoring: 알림끄기

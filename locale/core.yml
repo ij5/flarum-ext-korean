@@ -234,8 +234,8 @@ core:
       empty_text: 아직 이곳에서 토론을 하지 않았어요.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 읽음으로 표시
-      replied_text: "{username}님이 {ago} 전에 답장했습니다"
-      started_text: "{username}님이 {ago} 전에 토론을 시작했습니다"
+      replied_text: "{username}님이 {ago}에 답장했습니다"
+      started_text: "{username}님이 {ago}에 토론을 시작했습니다"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -266,7 +266,7 @@ core:
       admin_button: 관리
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: 사용자정보
+      profile_button: 마이페이지
       search_placeholder: Forum 검색
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
@@ -310,7 +310,7 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       edited_text: 편집
-      edited_tooltip: "{username}님이 {ago}전에 편집했습니다"
+      edited_tooltip: "{username}님이 {ago}에 편집했습니다"
       number_tooltip: "글 #{number}"
 
     # These translations are used by the post control buttons.
@@ -325,7 +325,7 @@ core:
       now_link: 지금
       original_post_link: 원문
       unread_text: "{count}개 읽지 않음"
-      viewing_text: "{count} 글의 {index}|{count} 글의 {index}"
+      viewing_text: "{index} / {count}|{index} / {count}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -353,7 +353,7 @@ core:
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: Web
+      notify_by_web_heading: 웹 알림
       notify_discussion_renamed_label: 내가 시작한 토론의 제목을 다른 사람이 변경할 때 알리기
       privacy_disclose_online_label: 나의 온라인 상태를 다른 사람에게 보이기
       privacy_heading: 개인정보
@@ -376,17 +376,18 @@ core:
       avatar_upload_button: 올리기
       avatar_upload_tooltip: 아바타 올리기
       bio_placeholder: 당신에 대한 소개를 작성해주세요
-      discussions_link: => core.ref.discussions
+      discussions_link: 토론
       in_discussion_text: "{discussion}"
-      joined_date_text: "{ago} 전에 가입"
+      joined_date_text: "{ago}에 가입"
       online_text: 접속 중
+      posts_empty_text: 아직 글을 작성하지 않았나봐요.
       posts_load_more_button: => core.ref.load_more
-      posts_link: 토론 시작
+      posts_link: 활동
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: 도구
       delete_button: => core.ref.delete
       delete_confirmation: "정말 이 사용자를 없애버릴까요? 작성한 글은 모두 사라져요."
       edit_button: => core.ref.edit

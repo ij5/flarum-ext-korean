@@ -9,7 +9,8 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      reply_to_post_text: "#{number}에 답장 쓰기"
+      mention_tooltip: 사용자나 게시글에 답장합니다.
+      reply_to_post_text: "#{number}에게 답장"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -19,10 +20,10 @@ flarum-mentions:
 
     # These translations are displayed beneath individual posts.
     post:
-      mentioned_by_self_text: "{users}님이 이 글에 답장을 썼습니다."  # Can be pluralized to agree with the number of users!
-      mentioned_by_text: "{users}님이 이 글에 답장을 썼습니다."       # Can be pluralized to agree with the number of users!
+      mentioned_by_self_text: "{users}이 이 글에 답장헸어요."  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users}님이 이 글에 답장했어요."       # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
-      quote_button: 인용
+      quote_button: 멘션
       reply_link: => core.ref.reply
       you_text: => core.ref.you
 

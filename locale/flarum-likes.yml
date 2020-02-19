@@ -17,21 +17,21 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "{username}님은 이 글을 좋아했습니다"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username}님이 좋아요를 눌렀어요."  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
-      like_link: 좋아요!
-      liked_by_self_text: "{users}님은 이 글을 좋아합니다."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users}님은 이 글을 좋아합니다.|{users}님은 이 글을 좋아합니다."
+      like_link: 좋아요
+      liked_by_self_text: "{users}이 좋아요를 눌렀어요."  # Can be pluralized to agree with the number of users!
+      liked_by_text: "{users}님이 좋아요를 눌렀어요.|{users}님이 좋아요를 눌렀어요."
       others_link: => core.ref.some_others
-      unlike_link: 좋아요! 취소
+      unlike_link: 좋아요 취소
       you_text: => core.ref.you
 
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
-      title: 이 글을 좋아하는 사람들
+      title: 좋아요 누른 사람
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: 어떤 사람이 내 글을 좋아합니다
+      notify_post_liked_label: 다른 사람이 내 글에 좋아요를 눌렀을 때 알림

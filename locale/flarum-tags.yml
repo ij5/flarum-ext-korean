@@ -32,7 +32,7 @@ flarum-tags:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: 태그 편집 허용
-      restrict_by_tag_heading: Tag로 제한두기
+      restrict_by_tag_heading: 태그로 제한두기
       tag_discussions_label: 태그 게시글
 
     # These translations are used in the Tag Settings modal dialog.
@@ -57,11 +57,11 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "주 태그 선택| {count}개의 주 태그 선택"
+      choose_primary_placeholder: "태그 선택| {count}개의 태그 선택"
       choose_secondary_placeholder: "1 개 이상의 태그 선택|{count} 개 이상의 태그 선택"
       edit_title: "{title}의 태그 편집"
       submit_button: => core.ref.okay
-      title: 게시글에 대한 tag를 선택하세요
+      title: 게시글과 관련된 태그를 선택하세요.
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -73,7 +73,7 @@ flarum-tags:
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: 더 보기...
+      more_link: 더보기
       tags_link: => flarum-tags.ref.tags
       untagged_link: 태그 없애기
 
@@ -98,4 +98,4 @@ flarum-tags:
   ref:
     create_tag: 태그 만들기
     name: 이름
-    tags: Tags
+    tags: 태그
