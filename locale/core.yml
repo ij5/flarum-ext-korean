@@ -1,0 +1,551 @@
+core:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the placeholder Add Extension modal dialog.
+    add_extension:
+      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
+      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
+      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      title: Add Extension
+
+    # These translations are used in the Appearance page.
+    appearance:
+      colored_header_label: 색상 적용된 헤더
+      colors_heading: 색상
+      colors_text: "두 가지 색깔을 선택하세요. 첫 번째는 강조된 색상이고, 두 번째는 배경색입니다."
+      custom_header_heading: 나만의 헤더
+      custom_header_text: "Flarum 헤더 위쪽에 표시될 HTML 코드를 추가하세요."
+      custom_styles_heading: 나만의 스타일
+      custom_styles_text: Flarum 기본 스타일 위에 표시될 나만의 LESS/CSS 코드를 추가하세요.
+      dark_mode_label: 어두운 설정
+      edit_css_button: 나만의 CSS 편집
+      edit_header_button: 나만의 헤더 편집
+      enter_hex_message: 16진수 색상 코드를 입력하세요.
+      favicon_heading: Favicon
+      favicon_text: 사이트 바로가기에 표시될 이미지를 업로드하세요.
+      logo_heading: 로고
+      logo_text: Forum 제목에 표시될 이미지를 업로드하세요.
+      submit_button: => core.ref.save_changes
+
+    # These translations are used in the Basics page.
+    basics:
+      all_discussions_label: => core.ref.all_discussions
+      default_language_heading: 기본 언어
+      forum_description_heading: Forum 설명
+      forum_description_text: 게시판에 대한 설명을 입력하세요. Meta tag에 표시되고 검색 엔진에 노출될 겁니다.
+      forum_title_heading: Forum 제목
+      home_page_heading: 홈 페이지
+      home_page_text: "사용자가 처음 보게 될 페이지를 선택하세요."
+      saved_message: 변경 사항이 저장되었습니다.
+      submit_button: => core.ref.save_changes
+      welcome_banner_heading: 환영 인사
+      welcome_banner_text: 방문객들을 위한 환영 인사글 (banner)을 입력하세요.
+
+    # These translations are used in the Dashboard page.
+    dashboard:
+      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
+      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
+      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
+      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
+      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
+      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
+      version_text: "Thanks for trying out Flarum! You are running version {version}."
+      welcome_text: "Welcome to Flarum Beta!"
+
+    # These translations are used in the Edit Custom CSS modal dialog.
+    edit_css:
+      customize_text: "나만의 LESS/CSS 코드를 추가하세요. Flarum의 <a>default styles</a>에 적용됩니다."
+      submit_button: => core.ref.save_changes
+      title: 나만의 CSS 편집
+
+    # These translations are used in the Edit Group modal dialog.
+    edit_group:
+      color_label: 색상
+      delete_button: 그룹 삭제
+      delete_confirmation: "정말 이 그룹을 삭제하시겠습니까? 그룹 멤버들은 삭제되지 않습니다."
+      icon_label: 아이콘
+      icon_text: "<a>FontAwesome</a> icon class의 이름을 입력하세요. <code>fa-</code> prefix <em>없이</em>."
+      name_label: 이름
+      plural_placeholder: 복수 (e.g. Mods)
+      singular_placeholder: 단수 (e.g. Mod)
+      submit_button: => core.ref.save_changes
+      title: 그룹 생성
+
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      customize_text: "Flarum 헤더에 표시될 HTML 코드를 추가하세요."
+      submit_button: => core.ref.save_changes
+      title: 나만의 헤더 편집
+
+    # These translations are used in the email page of the admin interface.
+    email:
+      account_heading: SMTP Account
+      addresses_heading: Addresses
+      driver_label: Driver
+      encryption_label: Encryption
+      from_label: Sender
+      heading: => core.ref.email
+      host_label: Host
+      password_label: => core.ref.password
+      port_label: Port
+      server_heading: SMTP Server
+      submit_button: => core.ref.save_changes
+      text: SMTP와 email 주소를 설정하세요.
+      username_label: => core.ref.username
+
+    # These translations are used in the Extensions page.
+    extensions:
+      add_button: 확장팩 추가하기
+      settings_button: => core.ref.settings
+      uninstall_button: 제거
+
+    # These translations are used in the session dropdown menu.
+    header:
+      log_out_button: => core.ref.log_out
+
+    # These translations are used in the modal dialog displayed when loading extensions.
+    loading:
+      title: 잠시만 기다려주세요...
+
+    # These translations are used in the navigation bar.
+    nav:
+      appearance_button: 꾸미기
+      appearance_text: "색상, 로고 등을 마음대로 변경하세요."
+      basics_button: 기본
+      basics_text: "Forum 제목, 언어 등을 설정하세요."
+      dashboard_button: 대시보드
+      dashboard_text: 살펴보기.
+      email_button: => core.ref.email
+      email_text: "Email 설정"
+      extensions_button: 확장
+      extensions_text: 확장팩을 추가하세요.
+      permissions_button: 권한
+      permissions_text: 사용 권한을 설정하세요.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_renaming_label: 이름 변경 허용
+      allow_post_editing_label: 글 편집 허용
+      create_heading: 생성
+      delete_discussions_forever_label: 완전 삭제
+      delete_discussions_label: 글 삭제
+      delete_posts_forever_label: 완전 삭제
+      edit_and_delete_posts_label: 글 편집 및 삭제
+      global_heading: Global
+      moderate_heading: 사회자
+      new_group_button: 새로운 그룹
+      participate_heading: 참여
+      read_heading: 읽기
+      rename_discussions_label: 이름 변경
+      reply_to_discussions_label: 답장쓰기
+      sign_up_label: 회원 가입
+      start_discussions_label: 글쓰기
+      view_discussions_label: 게시글 보기
+      view_post_ips_label: 글 작성 IP 주소 보기
+      view_user_list_label: 사용자 목록 보기
+
+    # These translations are used in the dropdown menus on the Permissions page.
+    permissions_controls:
+      allow_indefinitely_button: 무기한
+      allow_some_minutes_button: "{count} 분 동안|{count} 분 동안"
+      allow_ten_minutes_button: 10 분 동안
+      allow_until_reply_button: 다음 답장까지
+      everyone_button: 모든 사람
+      members_button: => core.group.members
+      signup_closed_button: Closed
+      signup_open_button: Open
+
+    # These translations are used in the Settings modal dialog.
+    settings:
+      submit_button: => core.ref.save_changes
+
+    # These translations are used in image upload buttons.
+    upload_image:
+      remove_button: 삭제
+      upload_button: 이미지 선택...
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used in the Change Email modal dialog.
+    change_email:
+      confirmation_message: => core.ref.confirmation_email_sent
+      confirm_password_placeholder: => core.ref.confirm_password
+      dismiss_button: => core.ref.okay
+      incorrect_password_message: 비밀번호가 틀렸어요.
+      submit_button: => core.ref.save_changes
+      title: => core.ref.change_email
+
+    # These translations are used in the Change Password modal dialog.
+    change_password:
+      send_button: 비밀번호 변경 이메일 보내기
+      text: 아래 버튼을 누르면 비밀번호 변경 링크가 퐁당 담긴 이메일을 보내줄게요.
+      title: => core.ref.change_password
+
+    # These translations are used by the composer controls.
+    composer:
+      close_tooltip: 닫기
+      exit_full_screen_tooltip: 전체 화면 끝내기
+      full_screen_tooltip: 전체 화면
+      minimize_tooltip: 최소화
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      body_placeholder: 글 작성...
+      discard_confirmation: "글쓰기를 끝내지 않았습니다. 이 글을 올리지 않겠습니까?"
+      submit_button: 글쓰기
+      title: => core.ref.start_a_discussion
+      title_placeholder: 게시글 제목
+
+    # These translations are used by the composer when editing a post.
+    composer_edit:
+      discard_confirmation: "변경사항이 저장되지 않았어요. 끝낼까요?"
+      post_link: "{discussion}의 글 #{number}"
+      submit_button: => core.ref.save_changes
+
+    # These translations are used by the composer when replying to a discussion.
+    composer_reply:
+      body_placeholder: => core.ref.write_a_reply
+      discard_confirmation: "답장을 쓰지 않았어요. 끝낼까요?"
+      posted_message: 답장이 등록되었어요.
+      submit_button: 답장
+      view_button: 보기
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      cannot_reply_button: 답장 불가
+      cannot_reply_text: 이 글에 답장할 수 있는 권한이 없어요.
+      delete_button: => core.ref.delete
+      delete_confirmation: "정말로 이 글을 삭제할까요?"
+      delete_forever_button: => core.ref.delete_forever
+      log_in_to_reply_button: 답장하려면 로그인하세요.
+      rename_button: => core.ref.rename
+      reply_button: => core.ref.reply
+      restore_button: => core.ref.restore
+
+    # These translations are used in the discussion list.
+    discussion_list:
+      empty_text: 더 이상 글이 없어요.
+      load_more_button: => core.ref.load_more
+      mark_as_read_tooltip: 읽음으로 표시
+      replied_text: "{username}님이 {ago} 전에 답장했습니다"
+      started_text: "{username}님이 {ago} 전에 토론을 시작했습니다"
+
+    # These translations are used in the Edit User modal dialog (admin function).
+    edit_user:
+      activate_button: 사용자 활성화
+      email_heading: => core.ref.email
+      email_label: => core.ref.email
+      groups_heading: 그룹
+      password_heading: => core.ref.password
+      password_label: => core.ref.password
+      set_password_label: 새로운 비밀번호 설정
+      submit_button: => core.ref.save_changes
+      title: 사용자 편집
+      username_heading: => core.ref.username
+      username_label: => core.ref.username
+
+    # These translations are used in the Forgot Password modal dialog.
+    forgot_password:
+      dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
+      email_sent_message: 비밀번호 변경 이메일을 전송했어요. 1~2분 안에 도착하지 않았다면, 메일함의 스팸 폴더를 확인하세요.
+      not_found_message: 등록된 사용자가 없습니다.
+      submit_button: 비밀번호 변경 이메일 보내기
+      text: 이메일 주소를 입력하면 비밀번호 변경 링크가 퐁당 담긴 이메일을 보내줄게요.
+      title: 비밀번호 잊음
+
+    # These translations are used in the header and session dropdown menu.
+    header:
+      admin_button: 관리
+      log_in_link: => core.ref.log_in
+      log_out_button: => core.ref.log_out
+      profile_button: 사용자정보
+      search_placeholder: Forum 검색
+      settings_button: => core.ref.settings
+      sign_up_link: => core.ref.sign_up
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      all_discussions_link: => core.ref.all_discussions
+      cannot_start_discussion_button: 토론 시작 불가
+      mark_all_as_read_confirmation: "모든 글을 읽음으로 표시할까요?"
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      refresh_tooltip: 새로고침
+      start_discussion_button: => core.ref.start_a_discussion
+
+    # These translations are used by the sorting control above the discussion list.
+    index_sort:
+      latest_button: 추천순
+      newest_button: 최신순
+      oldest_button: 오래된순
+      relevance_button: 관련순
+      top_button: 인기순
+
+    # These translations are used in the Log In modal dialog.
+    log_in:
+      forgot_password_link: "비밀번호를 잊었나요?"
+      invalid_login_message: 로그인 정보가 잘못되었어요.
+      password_placeholder: => core.ref.password
+      remember_me_label: 기억하기
+      sign_up_text: "가입하지 않았나요? <a>회원가입</a>"
+      submit_button: => core.ref.log_in
+      title: => core.ref.log_in
+      username_or_email_placeholder: 사용자이름 또는 이메일
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      discussion_renamed_text: "{username}님이 제목을 변경했어요"
+      empty_text: 알림이 없어요. 조금 더 활동해보세요.
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      title: => core.ref.notifications
+      tooltip: => core.ref.notifications
+
+    # These translations are used by tooltips displayed for individual posts.
+    post:
+      edited_text: 편집
+      edited_tooltip: "{username}님이 {ago}전에 편집했습니다"
+      number_tooltip: "글 #{number}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      delete_button: => core.ref.delete
+      delete_forever_button: => core.ref.delete_forever
+      edit_button: => core.ref.edit
+      restore_button: => core.ref.restore
+
+    # These translations are used in the scrubber to the right of the post stream.
+    post_scrubber:
+      now_link: 지금
+      original_post_link: 원문
+      unread_text: "{count}개 읽지 않음"
+      viewing_text: "{count} 글의 {index}|{count} 글의 {index}"
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      discussion_renamed_old_tooltip: '예전 제목은 "{old}" 입니다'
+      discussion_renamed_text: "{username}님이 제목을 {new}로 변경했습니다."
+      load_more_button: => core.ref.load_more
+      reply_placeholder: => core.ref.write_a_reply
+      time_lapsed_text: "{period} 후"
+
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      title: 제목을 입력하세요
+      submit_button: => core.ref.rename
+
+    # These translations are used by the search results dropdown list.
+    search:
+      all_discussions_button: '"{query}"에 관한 모든 글을 검색했어요.'
+      discussions_heading: => core.ref.discussions
+      users_heading: 사용자
+
+    # These translations are used in the Settings page.
+    settings:
+      account_heading: 계정
+      change_email_button: => core.ref.change_email
+      change_password_button: => core.ref.change_password
+      notifications_heading: => core.ref.notifications
+      notify_by_email_heading: => core.ref.email
+      notify_by_web_heading: Web
+      notify_discussion_renamed_label: 내가 시작한 토론의 제목을 다른 사람이 변경할 때 알리기
+      privacy_disclose_online_label: 나의 온라인 상태를 다른 사람에게 보이기
+      privacy_heading: 개인정보
+      title: => core.ref.settings
+
+    # These translations are used in the Sign Up modal dialog.
+    sign_up:
+      email_placeholder: => core.ref.email
+      dismiss_button: => core.ref.okay
+      log_in_text: "이미 가입했나요? <a>로그인</a>"
+      password_placeholder: => core.ref.password
+      submit_button: => core.ref.sign_up
+      title: => core.ref.sign_up
+      username_placeholder: => core.ref.username
+      welcome_text: "다시 돌아온 것을 환영해요, {username}님!"
+
+    # These translations are used in the user profile page and profile popup.
+    user:
+      avatar_remove_button: 제거
+      avatar_upload_button: 올리기
+      avatar_upload_tooltip: 아바타 올리기
+      bio_placeholder: 당신에 대한 소개를 작성해주세요
+      discussions_link: => core.ref.discussions
+      in_discussion_text: "{discussion}"
+      joined_date_text: "{ago} 전에 가입"
+      online_text: 접속 중
+      posts_load_more_button: => core.ref.load_more
+      posts_link: 토론 시작
+      settings_link: => core.ref.settings
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      button: Controls
+      delete_button: => core.ref.delete
+      delete_confirmation: "정말 이 사용자를 없애버릴까요? 작성한 글은 모두 사라져요."
+      edit_button: => core.ref.edit
+
+    # These translations are used in the alert that is shown when a new user has not confirmed their email address.
+    user_email_confirmation:
+      alert_message: => core.ref.confirmation_email_sent
+      resend_button: 이메일 다시 보내기
+      sent_message: 보내기
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      hidden_tooltip: 숨김
+
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[삭제됨]"
+
+    # These translations are displayed as error messages.
+    error:
+      generic_message: "이런! 무언가 잘못되었네요. 페이지를 새로고침하고 다시 시도해주세요."
+      not_found_message: 요청한 내용이 없어요.
+      permission_denied_message: 권한이 없어요. 더커서 오세요.
+      rate_limit_exceeded_message: 천천히 하세요. 너무 빨라요.
+
+    # These translations are used as suffixes when abbreviating numbers.
+    number_suffix:
+      kilo_text: 천
+      mega_text: 만
+
+    # These translations are used to punctuate a series of items.
+    series:
+      glue_text: ", "
+      three_text: "{first}, {second}, 그리고 {third}"
+      two_text: "{first} 그리고 {second}"
+
+  # Translations in this namespace are used in views other than Flarum's normal JS client.
+  views:
+
+    # Translations in this namespace are displayed by the basic HTML content loader.
+    content:
+      javascript_disabled_message: 이 사이트는 자바스크립트가 활성화된 최신 브라우저에 최적화되었습니다.
+      load_error_message: 사이트 로딩 중 문제가 발생했습니다.
+      loading_text: 로딩중학교...
+
+    # Translations in this namespace are displayed in the basic HTML discussion view.
+    discussion:
+      next_page_button: => core.ref.next_page
+      previous_page_button: 이전 페이지
+
+    # Translations in this namespace are displayed by the basic HTML discussion index.
+    index:
+      all_discussions_heading: => core.ref.all_discussions
+      next_page_button: => core.ref.next_page
+
+    # Translations in this namespace are displayed by the Reset Password interface.
+    reset:
+      confirm_password_label: => core.ref.confirm_password
+      password_label: => core.ref.password
+      submit_button: 비밀번호 변경
+      title: => core.ref.reset_your_password
+
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "사용자이름은 알파벳, 숫자, 대시(-)만 사용할 수 있어요."
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when users register new accounts.
+    activate_account:
+      subject: 당신의 계정을 활성화하러 왔어요!
+      body: |
+        안녕하세요, {username}님!
+
+        누군가 {forum}에 이 이메일 주소로 가입했어요.
+
+        당신이 가입한게 맞다면 아래 링크를 눌러주세요:
+        {url}
+
+        만약 아니라면 그냥 무시해주세요...
+
+    # These translations are used in emails sent when users change their email address.
+    confirm_email:
+      subject: 새로운 이메일 주소를 확인하러 왔어요!
+      body: |
+        안녕하세요 {username}님!
+
+        누군가 {forum}의 이메일 주소 변경을 요청했어요.
+
+        당신이 요청했다면 아래 링크를 눌러주세요:
+        {url}
+
+        만약 아니라면 무시하세요...
+
+    # These translations are used in emails sent when users ask to reset their passwords.
+    reset_password:
+      subject: => 비밀번호를 바꾸러 왔어요!
+      body: |
+        안녕하세요 {username}님!
+
+        누군가 {forum}의 비밀번호 변경을 요청했어요.
+
+        당신이 요청했다면 아래 링크를 눌러 비밀번호를 변경하세요:
+        {url}
+
+        비밀번호 변경을 원하지 않을 경우 무시하셔도 됩니다.
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    all_discussions: 모든 게시글
+    change_email: 이메일 바꾸기
+    change_password: 비밀번호 바꾸기
+    confirm_password: 비밀번호 확인
+    confirmation_email_sent: "확인 메일을 {email}으로 보냈습니다. 도착하지 않았다면, 메일함의 스팸 폴더를 확인해주세요."
+    delete: 삭제
+    delete_forever: 영구적으로 삭제
+    discussions: 게시글
+    edit: 편집
+    email: 이메일
+    load_more: 더 보기
+    log_in: 로그인
+    log_out: 로그아웃
+    mark_all_as_read: 읽음으로 표시
+    next_page: 다음 페이지
+    notifications: 알림
+    okay: OK                                     # Referenced by flarum-tags.yml
+    password: 비밀번호
+    rename: 이름 바꾸기
+    reply: 답장                                 # Referenced by flarum-mentions.yml
+    reset_your_password: 비밀번호 바꾸기
+    restore: 복원
+    save_changes: 변경사항 저장                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: 설정
+    sign_up: 회원가입
+    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: 토론 시작
+    username: 이름
+    write_a_reply: 답장하기
+    you: 당신                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+
+  ##
+  # GROUP NAMES - These keys are translated at the back end.
+  ##
+
+  # Translations in this namespace are used to translate default group names.
+  group:
+    admin: 관리자
+    admins: 운영진
+    guest: 손님
+    guests: 손님들
+    member: 회원
+    members: 회원들
+    mod: 사회자
+    mods: 사회자

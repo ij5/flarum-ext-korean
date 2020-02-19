@@ -1,0 +1,54 @@
+flarum-subscriptions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      unfollow_button: 그만 지켜보기
+      unignore_button: 그만 무시하기
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      following_link: => flarum-subscriptions.ref.following
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      new_post_text: "{username}님이 글을 올렸습니다"
+
+    # These translations are used in the Settings page.
+    settings:
+      follow_after_reply_label: 자동으로 내가 답장한 게시글을 지켜보기
+      notify_new_post_label: 어떤 사람이 내가 지켜보는 게시글에 글을 씁니다
+
+    # These translations are used in the subscription menu displayed to the right of the post stream.
+    sub_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      following_button: => flarum-subscriptions.ref.following
+      following_text: 모든 댓글에 대해 알립니다.
+      ignoring_button: => flarum-subscriptions.ref.ignoring
+      ignoring_text: 알리지 않습니다. 게시 목록으로부터 숨깁니다.
+      not_following_button: 지켜보지 않기
+      not_following_text: "지적이 있을 경우에만 알림 @mentioned."
+      notify_alert_tooltip: 새 글에 대해 알림 받기
+      notify_email_tooltip: 새 글에 대해 이메일 받기
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    follow: 지켜봅니다
+    following: 지켜보기
+    ignoring: 무시하기

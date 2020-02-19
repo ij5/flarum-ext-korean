@@ -1,0 +1,101 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: 색상
+      delete_tag_button: Tag 지우기
+      delete_tag_confirmation: "정말로 이 tag을 지우기를 원합니까? 이 tag의 게시글은 지워지지 않습니다."
+      description_label: 설명
+      hide_label: 모든 게시글 숨기기
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Slug
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Tag 관리하기.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Tag 편집 허용
+      restrict_by_tag_heading: Tag로 제한두기
+      tag_discussions_label: Tag 게시글
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " 부터 "
+      required_primary_heading: 주 Tag 개수
+      required_primary_text: 최소와 최대 개수를 입력하세요.
+      required_secondary_heading: 부 Tag 개수
+      required_secondary_text: 최소와 최대 개수를 입력하세요.
+      title: Tag 설정
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Tag는 게시글을 분류하는 데 쓰입니다. 주 tag는 일반적인 주제같은 것입니다: 두 단계 구조로 나뉠 수 있습니다. 부 tag는 구조나 순서를 가지지 않고, 소분류하기에 적합합니다."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: 주 Tag
+      secondary_heading: 부 Tag
+      settings_button: 설정
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "주 tag 선택| {count}개의 주 tag 선택"
+      choose_secondary_placeholder: "1 개 이상의 tag 선택|{count} 개 이상의 tag 선택"
+      edit_title: "{title}의 Tag 편집"
+      submit_button: => core.ref.okay
+      title: 게시글에 대한 tag를 선택하세요
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Tag 선택
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Tag 편집
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: 더 보기...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Tag 없애기
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username}님이 {tagsAdded}를 추가했습니다."
+      added_and_removed_tags_text: "{username}님이 {tagsAdded}를 추가하고 {tagsRemoved}를 삭제했습니다."
+      removed_tags_text: "{username}님이 {tagsRemoved}를 삭제했습니다."
+      tags_text: "{tags} tag|{tags} tags"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: 삭제
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Tag 만들기
+    name: 이름
+    tags: Tags

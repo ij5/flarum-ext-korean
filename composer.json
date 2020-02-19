@@ -1,0 +1,38 @@
+{
+    "name": "jhlee838/flarum-ext-korean",
+    "type": "flarum-extension",
+    "description": "Korean language pack.",
+    "keywords": ["locale","flarum"],
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "jhlee838",
+        "email": "jhlee838@gmail.com"
+    }
+    ],
+    "support": {
+      "issues": "https://github.com/jhlee838/flarum-ext-korean/issues",
+      "source": "https://github.com/jhlee838/flarum-ext-korean"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.6"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Korean",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "kr",
+            "title": "Korean"
+        }
+    }
+}
