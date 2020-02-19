@@ -1,0 +1,20 @@
+flarum-markdown:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the composer (emoji autocompletion function).
+    composer:
+      bold_tooltip: 굵은 글씨
+      code_tooltip: 소스코드 삽입
+      header_tooltip: 제목 삽입
+      image_tooltip: 이미지 추가
+      italic_tooltip: 기울임 글씨
+      link_tooltip: 링크 추가
+      ordered_list_tooltip: 숫자 리스트 추가
+      quote_tooltip: 인용
+      unordered_list_tooltip: 리스트 추가
