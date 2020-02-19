@@ -31,7 +31,7 @@ fof-username-request:
       reason: '비승인 이유: <i>"{reason}"</i>.'
       resubmit: 원하시면 계정 설정에서 이름 변경 요청을 다시 보낼 수 있어요.
     request:
-      title: 바꿀 이름을 입력 후 비밀번호를 확인하세요.
+      title: 바꿀 이름을 입력 후<br>비밀번호를 확인하세요.
       current_request: 이미 "{username}"이라는 이름으로 변경을 요청했어요. 요청을 업데이트하거나 취소할 수 있어요.
       submit_button: 요청
       delete_button: 요청 취소
@@ -48,3 +48,25 @@ fof-username-request:
       exerpt: "이름: {requestedUsername}"
 
   
+
+saleksin-auth-google:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Google Settings modal dialog.
+    google_settings:
+      client_id_label: App ID
+      client_secret_label: App Secret
+      title: Google Settings
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used in the Log In modal dialog.
+    log_in:
+      with_google_button: Google 로그인
