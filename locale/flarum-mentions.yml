@@ -15,8 +15,8 @@ flarum-mentions:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username}님이 당신의 글에 답장을 썼습니다"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username}님이 당신 글에 대해 말했습니다"
+      post_mentioned_text: "{username}님이 당신의 글에 답장했어요."  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username}님이 당신을 멘션했어요.
 
     # These translations are displayed beneath individual posts.
     post:
