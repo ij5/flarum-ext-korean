@@ -231,7 +231,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: 더 이상 글이 없어요.
+      empty_text: 아직 이곳에서 토론을 하지 않았어요.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 읽음으로 표시
       replied_text: "{username}님이 {ago} 전에 답장했습니다"

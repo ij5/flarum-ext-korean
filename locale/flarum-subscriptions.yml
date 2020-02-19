@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: 지켜봅니다
+    follow: 지켜보는 중
     following: 지켜보기
     ignoring: 무시하기
