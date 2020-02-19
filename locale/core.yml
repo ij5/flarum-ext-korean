@@ -323,8 +323,8 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: 지금
-      original_post_link: 원문
+      now_link: 잎
+      original_post_link: 뿌리
       unread_text: "{count}개 읽지 않음"
       viewing_text: "{index} / {count}|{index} / {count}"
 
@@ -534,7 +534,7 @@ core:
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: 토론 시작
     username: 이름
-    write_a_reply: 답장하기
+    write_a_reply: 답장하기 (Ctrl+Enter로 전송)
     you: 당신                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
