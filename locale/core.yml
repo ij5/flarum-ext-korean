@@ -194,11 +194,12 @@ core:
       exit_full_screen_tooltip: 전체 화면 끝내기
       full_screen_tooltip: 전체 화면
       minimize_tooltip: 최소화
+      preview_tooltip: 미리보기
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: 글 작성...
-      discard_confirmation: "글쓰기를 끝내지 않았습니다. 이 글을 올리지 않겠습니까?"
+      discard_confirmation: "아직 글을 쓰고있어요. 취소할까요?"
       submit_button: 글쓰기
       title: => core.ref.start_a_discussion
       title_placeholder: 게시글 제목
