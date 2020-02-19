@@ -34,4 +34,4 @@ flarum-likes:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: 다른 사람이 내 글에 좋아요를 눌렀을 때 알림
+      notify_post_liked_label: 다른 사람이 내 글에 좋아요를 눌렀을 때 알리기

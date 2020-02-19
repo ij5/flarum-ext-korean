@@ -34,4 +34,4 @@ flarum-lock:
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: 게시한 글이 잠겨졌습니다
+      notify_discussion_locked_label: 내 토론이 잠겼을때 알리기

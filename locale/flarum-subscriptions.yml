@@ -28,8 +28,8 @@ flarum-subscriptions:
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: 자동으로 내가 답장한 게시글을 지켜보기
-      notify_new_post_label: 어떤 사람이 내가 지켜보는 게시글에 글을 씁니다
+      follow_after_reply_label: 자동으로 내가 답장한 토론에 관심주기
+      notify_new_post_label: 내가 관심주는 토론에 누군가 답글을 달았을 떄 알리기
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
