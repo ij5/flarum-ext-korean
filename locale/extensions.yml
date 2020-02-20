@@ -4,6 +4,7 @@ imgur-upload:
     loading: 업로드 중...
     done: 업로드 완료
 
+#TODO
 
 antoinefr-online:
   forum:
@@ -49,7 +50,7 @@ fof-username-request:
       item_text: "{username}가 이름 변경을 요청합니다."
       exerpt: "이름: {requestedUsername}"
 
-  
+  #TODO
 
 saleksin-auth-google:
 
@@ -73,7 +74,7 @@ saleksin-auth-google:
     log_in:
       with_google_button: Google 로그인
 
-
+#TODO
 
 dem13n:
   forum:
@@ -93,7 +94,7 @@ dem13n:
       max_char: Maximum characters in a nickname
       submit_button: => core.ref.save_changes
 
-
+#TODO
 
 core:
   forum:
@@ -122,12 +123,13 @@ flarum_discussion_views:
         max_viewcount: Maximum viewlist items
         show_viewlist: Enable viewlist
 
+#TODO
 
 fof-userbio:
   forum:
     userbioPlaceholder: 당신에 대해 적어보세요.
 
-
+#TODO
 
 core:
   forum:
@@ -200,31 +202,67 @@ fof-gamification:
           points: Points
           name: Name
 
+#TODO
 
+fof-links:
 
-avatar4eg-users-list:
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
   admin:
+
+    # These strings are used in the Edit Link modal dialog.
+    edit_link:
+      delete_link_button: Delete Link
+      delete_link_confirmation: "Are you sure you want to delete this link?"
+      internal_link: "Is it a Flarum link?"
+      open_newtab: "Open link in new tab"
+      submit_button: => core.ref.save_changes
+      title: => fof-links.ref.create_link
+      title_label: => fof-links.ref.title
+      title_placeholder: => fof-links.ref.title
+      url_label: => fof-links.ref.url
+      url_placeholder: => fof-links.ref.url
+
+    # These strings are used in the Links page.
+    links:
+      about_text: Manage primary menu links.
+      create_button: => fof-links.ref.create_link
+      links: => fof-links.ref.links
+
+    # These strings are used in the navigation bar.
     nav:
-      users_button: => avatar4eg-users-list.ref.users_title
-      users_text: View users list.
-    page:
-      about_text:  View list of registered users.
-      online_text: => core.forum.user.online_text
-      load_more_button: => core.ref.load_more
-      list_title: => avatar4eg-users-list.ref.users_title
-      mail_all_button: Mail to all users
-    modal_mail:
-      title_text: Message for
-      title_all_text: all users
-      email_label: To
-      subject_label: Subject
-      default_subject: => avatar4eg-users-list.ref.default_subject
-      message_label: Message
-      submit_button: Send
+      links_button: => fof-links.ref.links
+      links_text: Manage the primary navigation list items.
 
-  email:
-    default_subject: => avatar4eg-users-list.ref.default_subject
-
+  # Strings in this namespace are referenced by two or more unique keys.
   ref:
-    default_subject: Message from forum administration
-    users_title: Users
+    create_link: Create Link
+    links: Links
+    title: Title
+    url: Url
+
+#TODO
+
+
+flagrow-ads:
+    admin:
+        buttons:
+            save: 설정 저장
+        positions:
+            under-header:
+                title: Ad position under navigational header
+                placeholder: Insert your ad code here.
+            between-posts:
+                title: Ad position between posts
+                placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+            under-nav-items:
+                title: Ad position in the left column under tags on frontpage
+                placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+        settings:
+            start-from-post: Specify from which post to start to show an ad
+            between-n-posts: Specify after how many posts to place an ad
+        tab:
+            description: Set ads preferences and positions.
