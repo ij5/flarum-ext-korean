@@ -225,7 +225,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "정말로 이 글을 삭제할까요?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: 답장하려면 로그인하세요.
+      log_in_to_reply_button: 답장하려면 로그인
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
@@ -298,7 +298,7 @@ core:
       sign_up_text: "가입하지 않았나요? <a>회원가입</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: 사용자이름 또는 이메일
+      username_or_email_placeholder: 이메일
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -426,7 +426,7 @@ core:
     series:
       glue_text: ", "
       three_text: "{first}, {second}, 그리고 {third}"
-      two_text: "{first} 그리고 {second}"
+      two_text: "{first}, {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -510,7 +510,7 @@ core:
     change_email: 이메일 바꾸기
     change_password: 비밀번호 바꾸기
     confirm_password: 비밀번호 확인
-    confirmation_email_sent: "확인 메일을 {email}으로 보냈습니다. 도착하지 않았다면, 메일함의 스팸 폴더를 확인해주세요."
+    confirmation_email_sent: "확인 메일을 {email}으로 보냈어요. 도착하지 않았다면, 스팸 메일함을 확인해주세요."
     delete: 삭제
     delete_forever: 영구적으로 삭제
     discussions: 게시글
@@ -531,11 +531,11 @@ core:
     save_changes: 변경사항 저장                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: 설정
     sign_up: 회원가입
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "+{count}명|+{count}명"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: 토론 시작
     username: 이름
     write_a_reply: 답장하기 (Ctrl+Enter로 전송)
-    you: 당신                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    you: 당신                                    # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.

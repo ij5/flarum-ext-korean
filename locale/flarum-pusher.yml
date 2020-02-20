@@ -20,4 +20,4 @@ flarum-pusher:
 
     # These translations are used in the discussion list.
     discussion_list:
-      show_updates_text: "Show {count} updated discussion|Show {count} updated discussions"
+      show_updates_text: "{count}개의 토론이 업데이트 되었어요.|{count}개의 토론이 업데이트 되었어요."

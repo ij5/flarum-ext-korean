@@ -1,11 +1,13 @@
 imgur-upload:
   forum:
     upload: 이미지 업로드
+    loading: 업로드 중...
+    done: 업로드 완료
+
 
 antoinefr-online:
   forum:
     andmore: +{more}명...
-
 
 fof-username-request:
   admin:
@@ -70,3 +72,57 @@ saleksin-auth-google:
     # These translations are used in the Log In modal dialog.
     log_in:
       with_google_button: Google 로그인
+
+
+
+dem13n:
+  forum:
+    nickname:
+      head_title: 이름
+      new_nickname: 새로운 이름을 입력하세요
+      change: 이름 바꾸기
+      submit_button: => core.ref.save_changes
+  admin:
+    nickname:
+      settings_modal_title: Settings Nickname Changer
+      unlimited_nickname_change: Unlimited nickname change
+      allow_nickname_change: Allow nickname change
+      allow_nickname_unique: Allow same nicknames
+      regex: Regular expression for validation
+      min_char: Minimum characters in a nickname
+      max_char: Maximum characters in a nickname
+      submit_button: => core.ref.save_changes
+
+
+
+core:
+  forum:
+    index_sort:
+      popular_button: Popular
+      unpopular_button: Unpopular
+
+flarum_discussion_views:
+  forum:
+    modal_resetviews:
+      title: Reset discussion view count
+      submit: Yes, remove all
+      label: This will remove {count} view of this discussion. Continue?|This will remove {count} views of this discussion. Continue?
+    discussion_controls:
+      resetviews_button: Reset views
+    viewlist:
+      title: Latest viewers
+  admin:
+      permissions:
+        reset_views_label: Set discussion views
+      settings:
+        title: Discussionviews settings
+        track_unique: Track unique views
+        abbr_numbers: Abbreviate view numbers
+        show_filter: Enable (un)popular sort field
+        max_viewcount: Maximum viewlist items
+        show_viewlist: Enable viewlist
+
+
+fof-userbio:
+  forum:
+    userbioPlaceholder: 당신에 대해 적어보세요.
