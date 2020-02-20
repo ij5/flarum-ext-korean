@@ -262,7 +262,7 @@ core:
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: 마이페이지
-      search_placeholder: Forum 검색
+      search_placeholder: 검색
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
