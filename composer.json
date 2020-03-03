@@ -10,10 +10,6 @@
         "email": "woogyom@comocozy.com"
     }
     ],
-    "support": {
-      "issues": "https://github.com/Comocozy/flarum-ext-korean/issues",
-      "source": "https://github.com/Comocozy/flarum-ext-korean"
-    },
     "require": {
         "flarum/core": "^0.1.0-beta.6"
     },
