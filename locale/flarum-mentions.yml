@@ -30,8 +30,8 @@ flarum-mentions:
     # These translations are used in the Settings page.
     settings:
       notify_post_mentioned_label: 누군가 내 글에 답장했을 때 알리기
-      notify_user_mentioned_label: 누군가 내 글에 멘션할 떄 알리기
+      notify_user_mentioned_label: 누군가 나를 멘션할 떄 알리기
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: 인용
+      mentions_link: 멘션
