@@ -1,5 +1,5 @@
 {
-    "name": "comocozy/flarum-ext-korean",
+    "name": "jhlee838/flarum-korean",
     "type": "flarum-extension",
     "description": "Korean language pack.",
     "keywords": ["locale","flarum"],
