@@ -450,7 +450,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "사용자이름은 알파벳, 숫자, 대시(-)만 사용할 수 있어요."
+    invalid_username_message: "아이디는 알파벳, 숫자, 대시(-)만 사용할 수 있어요."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -518,7 +518,7 @@ core:
     notifications: 알림
     okay: OK                                     # Referenced by flarum-tags.yml
     password: 비밀번호
-    rename: 이름 바꾸기
+    rename: 아이디 바꾸기
     reply: 답장                                 # Referenced by flarum-mentions.yml
     reset_your_password: 비밀번호 바꾸기
     restore: 복원
@@ -527,7 +527,7 @@ core:
     sign_up: 회원가입
     some_others: "+{count}명|+{count}명"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: 토론 시작
-    username: 이름
+    username: 아이디
     write_a_reply: 답장하기 (Ctrl+Enter로 전송)
     you: 당신      
     users: 회원
