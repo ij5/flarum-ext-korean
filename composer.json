@@ -1,5 +1,5 @@
 {
-    "name": "jhlee838/flarum-korean",
+    "name": "jhlee838/flarum-ext-korean",
     "type": "flarum-extension",
     "description": "Korean language pack.",
     "keywords": ["locale","flarum"],
