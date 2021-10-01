@@ -3,31 +3,4 @@
 
 ## 설치방법
 
-    composer require comocozy/flarum-ext-korean
-
-## 제거방법
-
-기본 언어설정을 영어로 변경 후 아래 명령을 실행해주세요.  
-
-    composer remove comocozy/flarum-ext-korean
-
-## 문제점
-
-[여기](https://github.com/Comocozy/flarum-ext-korean/issues)에 접속하여 올려주세요.
-
-# Korean Language Pack for Flarum
-This language pack is an extension package of [Flarum](http://flarum.org/).
-
-## Installation
-
-    composer require comocozy/flarum-ext-korean
-
-## Uninstallation
-
-First of all, please change the default laguage setting to Enlgish, then run the command below.  
-
-    composer remove comocozy/flarum-ext-korean
-
-## Issue report
-
-Please go to [this link](https://github.com/Comocozy/flarum-ext-korean/issues) to report an issue.
+    composer require jhlee838/flarum-ext-korean
