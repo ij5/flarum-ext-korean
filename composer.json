@@ -2,23 +2,23 @@
     "name": "jhlee838/flarum-ext-korean",
     "type": "flarum-extension",
     "description": "Korean language pack.",
-    "keywords": ["locale","flarum"],
+    "keywords": ["locale"],
     "license": "MIT",
-    "authors": [
-    {
-        "name": "Comocozy",
-        "email": "woogyom@comocozy.com"
-    }
-    ],
     "require": {
-        "flarum/core": "^0.1.0-beta.11"
+        "flarum/core": "^1.0"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1.x-dev"
+            "dev-master": "1.x-dev"
         },
         "flarum-extension": {
-            "title": "Korean",
+            "title": "English",
+            "category": "language",
+            "info": {
+                "donate": "https://flarum.org/donate/",
+                "website": "https://flarum.org",
+                "support": "https://discuss.flarum.org"
+            },
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
@@ -27,7 +27,7 @@
             }
         },
         "flarum-locale": {
-            "code": "kr",
+            "code": "ko",
             "title": "Korean"
         }
     }
